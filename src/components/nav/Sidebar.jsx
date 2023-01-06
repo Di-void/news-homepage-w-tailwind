@@ -1,17 +1,20 @@
 import { GrClose } from "react-icons/gr";
 import { navLinks } from "../../lib/navlinks";
 
-const Sidebar = ({ navState, closeNav }) => {
+const Sidebar = ({ navState, closeNav, domNode }) => {
   return (
     <aside
-      className={`absolute left-0 top-0 h-screen w-full md:hidden ${
+      className={`fixed left-0 top-0 h-screen w-full md:hidden ${
         navState ? "" : "invisible pointer-events-none"
       }`}
     >
       {/* OVERLAY */}
       <div className="bg-black bg-opacity-50 w-full h-full relative">
         {/* LINKS */}
-        <div className=" bg-white h-full w-[65%] absolute right-0 max-w-sm px-5 py-4">
+        <div
+          className=" bg-white h-full w-[65%] absolute right-0 max-w-sm px-5 py-4"
+          ref={domNode}
+        >
           <div className="flex justify-end">
             <button className="hover:cursor-pointer" onClick={closeNav}>
               <GrClose size={30} />
