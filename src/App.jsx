@@ -1,8 +1,10 @@
+import { Navbar } from "./components";
+
 function App() {
   return (
-    <div>
-      <p className="font-bold">Hello world</p>
-    </div>
+    <main>
+      <Navbar />
+    </main>
   );
 }
 
