@@ -2,17 +2,17 @@ import { forFooter } from "../lib/articles";
 
 const Footer = () => {
   return (
-    <footer className="grid gap-y-6">
+    <footer className="grid justify-items-center gap-y-6 md:grid-cols-2 md:gap-x-4 lg:gap-x-14 xl:grid-cols-3 lg:col-span-3">
       {forFooter.map((item, index) => {
         const itemNum = index + 1;
         return (
-          <div key={item.id} className="flex gap-x-6">
+          <div key={item.id} className="flex gap-x-6 max-w-[500px]">
             {/* IMG */}
             <div className="basis-1/4">
               <img
                 src={item.img}
                 alt="article image"
-                className="w-full h-full"
+                className="w-full h-full object-center md:object-none lg:object-fill"
               />
             </div>
             {/* END IMG */}
