@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/news-homepage-1gCr0gUb37)
 - Live Site URL: [Live Site URL](https://news-homepage-chall.netlify.app/)
 
 ## My process
@@ -58,7 +58,7 @@ I will continue to read the docs and improve my tailwind skills. I have really g
 
 ### Useful resources
 
-- [Official tailwind Docs for sure](https://tailwindcss.com/docs/installation) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Official tailwind Docs for sure](https://tailwindcss.com/docs/installation) - It's one masterpiece of a documentation. Props to the guys that wrote it.
 
 ## Author
 
